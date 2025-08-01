@@ -1,0 +1,68 @@
+/* selector {
+  property: value;
+  property: value;
+  property: value;
+  property: value;
+  property: value;
+} */
+
+/* Element Selector */
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Class Selector */
+
+.colorTxt {
+  color: maroon;
+  font-size: 45px;
+}
+
+/* Id Selector */
+
+#para {
+  font-weight: 900;
+}
+
+/* Attribute Selector */
+
+a[href*="https"] {
+  font-size: 55px;
+}
+
+/* Grouping */
+
+/* a,
+.colorTxt {
+  color: green;
+} */
+
+/* Descendant */
+
+/* div span { */
+div > span {
+  background-color: yellow;
+}
+
+/* Sibling */
+
+div span ~ section {
+  color: brown;
+}
+
+section:hover {
+  background-color: deeppink;
+}
+
+a:visited {
+  color: gold;
+}
+
+input:focus {
+  background-color: grey;
+}
+
+ul :nth-child(2n + 1) {
+  background-color: yellow;
+}

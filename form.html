@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <h3>Registration Form</h3>
+    <form>
+      <label for="fullName">Full Name</label>
+      <input type="text" placeholder="Full Name" name="fullName" />
+      <br />
+      <label for="email">Email</label>
+      <input type="email" placeholder="Enter your email" name="email" />
+      <br />
+      <label for="pass">Password</label>
+      <input type="password" placeholder="Enter your password" name="" />
+      <br />
+      <label for="Phone">Phone</label>
+      <input type="number" placeholder="Enter your Phone No" name="Phone" />4
+      <br />
+      <label for="gender">Gender</label>
+      <input type="radio" name="gender" value="M" checked /> Male <input type="radio" name="gender" id="" value="F" /> Female <br />
+      <label for="skills">Skills</label>
+      <label for="MERN"> <input type="checkbox" checked value="MERN" name="skills" />MERN FSD</label><br />
+      <label for="SOC"> <input type="checkbox" value="SOC" name="skills" />SOC</label><br />
+      <label for="AWS"> <input type="checkbox" value="AWS" name="skills" />AWS</label><br />
+      <label for="DA"> <input type="checkbox" value="DA" name="skills" />Data Analyst</label><br />
+      <select name="course">
+        <option value="MERN">MERN</option>
+        <option value="AWS" selected>AWS</option>
+        <option value="DA">DA</option>
+        <option value="DS">DS</option>
+      </select>
+      <input type="file" accept="application/pdf" />
+      <!-- <input type="button" value="Submit" /> -->
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
