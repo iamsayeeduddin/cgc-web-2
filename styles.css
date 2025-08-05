@@ -64,5 +64,15 @@ input:focus {
 }
 
 ul :nth-child(2n + 1) {
-  background-color: yellow;
+  /* background-color: yellow; Named Color */
+  background-color: #000000; /* Hex Code */
+  color: rgba(255, 25, 255, 1);
+  box-sizing: content-box;
 }
+
+/* 0 - 9, 10 - 15 (A - F) */
+
+/* Unit */
+
+/* Absoulte - Pixel, Cm, Mm, Pt */
+/* Relative -  */
