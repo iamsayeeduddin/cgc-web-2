@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .box {
+        /* width: 50%; */
+        height: 200px;
+        box-sizing: border-box;
+        padding: 10px;
+        max-width: 600px;
+        /* background-image: url("./assets/image.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain; */
+        background-image: radial-gradient(red, green 55%);
+      }
+      img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+      }
+      #para {
+        color: brown;
+      }
+
+      p {
+        color: gold !important;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <p style="color: aquamarine" id="para">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic vero dolore expedita modi, at ducimus. Doloremque, harum consectetur! Error
+        nulla mollitia explicabo tempore molestias tempora incidunt vero debitis perferendis quisquam!
+      </p>
+      <!-- <img src="./assets/image.jpg" alt="" width="600" /> -->
+    </div>
+  </body>
+</html>
